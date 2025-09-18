@@ -22,7 +22,7 @@ function Login() {
             />
           </div>
           <div className="relative h-fit py-4 ">
-            <p className="absolute bg-slate-100 px-1 pr-3 text-violet-600 text-[11px] font-md top-[2%] left-[5%]">
+            <p className="absolute bg-slate-100 px-1 pr-3  text-violet-600 text-[11px] font-md top-[2%] left-[5%]">
               Password
             </p>
             <input
@@ -37,7 +37,7 @@ function Login() {
         <div>
           <button
             onClick={() => route("/profile")}
-            className="capitalize  w-full mb-[20px] px-4 text-md  font-md py-2 bg-gray-300 rounded-sm hover:bg-purple-600 text-white"
+            className="capitalize  w-full mb-[20px] px-4 text-md  font-md py-2 bg bg-gray-300 rounded-sm  text-white"
           >
             Login
           </button>

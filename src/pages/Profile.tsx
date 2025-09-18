@@ -22,7 +22,7 @@ function Profile() {
         <div className="flex flex-Around items-center relative   justify-between w-[100%]">
           <img
             className="w-[20vw] rounded-full"
-            src="./../../public/cat1Pfp.jpg"
+            src="https://cdn2.stylecraze.com/wp-content/uploads/2020/09/Beautiful-Women-In-The-World.jpg.webp"
             alt=""
           />
            <input
