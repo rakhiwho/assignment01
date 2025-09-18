@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function Register() {
@@ -16,8 +15,7 @@ function Register() {
             </p>
             <input
               placeholder="merry doe"
-                           className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
-
+              className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
               type="text"
               name=""
               id=""
@@ -29,8 +27,7 @@ function Register() {
             </p>
             <input
               placeholder="merry doe"
-                           className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
-
+              className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
               type="text"
               name=""
               id=""
@@ -42,8 +39,7 @@ function Register() {
             </p>
             <input
               placeholder="merry doe"
-                          className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
-
+              className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
               type="text"
               name=""
               id=""
@@ -55,8 +51,7 @@ function Register() {
             </p>
             <input
               placeholder="merry doe"
-                      className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
-
+              className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
               type="text"
               name=""
               id=""
@@ -68,8 +63,7 @@ function Register() {
             </p>
             <input
               placeholder="merry doe"
-                           className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
-
+              className=" items-center outline-none  pl-3 placeholder:text-[15px]  placeholder:text-black border-[1px] rounded-md  p-1 w-[80vw] border-slate-600 "
               type="text"
               name=""
               id=""
@@ -104,7 +98,7 @@ function Register() {
             onClick={() => route("/profile")}
             className="capitalize w-[70vw] mb-[20px] px-4 text-md   font-md py-2 bg-violet-500 rounded-sm hover:bg-indigo-600  text-white"
           >
-           Create account
+            Create account
           </button>
         </div>
       </div>

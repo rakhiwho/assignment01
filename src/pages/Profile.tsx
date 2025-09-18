@@ -1,13 +1,13 @@
 import { FaCamera } from "react-icons/fa";
-import React, { useRef, type ChangeEvent, } from "react";
+import  { useRef, type ChangeEvent, } from "react";
 function Profile() {
-  const fileInputRef = useRef(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleButtonClick = () => {
-    fileInputRef.current.click(); // Open file dialog
+    fileInputRef.current!.click(); // Open file dialog
   };
  const handleFileChange = (event : ChangeEvent<HTMLInputElement>) => {
-    const file = event.target?.files[0];
+    const file = event.target?.files![0];
     if (file) {
       console.log("Selected file:", file.name);
     }
